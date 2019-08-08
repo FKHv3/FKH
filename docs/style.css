@@ -1,17 +1,27 @@
-body {color: #7F0000; font-size:25px; text-align: center;
-               font-family: Georgia;
-               background-image: url(background_main.jpg)/*background BILD einfügen!*/;}
-span {/*font-size: 30px;*/ font-weight:900;}
+body {color: white; font-size:25px; text-align: center; font-weight: 1000;
+               font-family: Georgia; background-color:black/*image: url(background_main.jpg)*/;}
 
-.teitl {color: green; font-size: 70px;font-weight:900;
+span {font-weight:900;}
+
+.teitl {color: #ff00ff; font-size: 70px;font-weight:900;
         font-family: Arial}
 
-.subteitl {color: green; font-size: 40px;font-weight:600;/*border-bottom:3px solid green;*/
-                        /*width:50%; height: 10%; align: center;*/}
+.subteitl {color: #FF00FF; font-size: 40px;font-weight:600;}
 
-div span {color: green; font-size: 25px;font-weight:900;}
+div span {color: #FF00FF; font-size: 25px;font-weight:900;}
 
 .end {font-family: arial; font-size: 20px;
                 /*height: -100%;am boden anliegend*/}
 
-.kontr {background-color: rgba(255, 255, 255, 0.5); border:2px solid white;}
+.kontr {background-color: rgba(255, 255, 255, 0.1); border:2px solid white;
+       margin-top:0%; margin-bottom:0%}
+
+/* link="#7F0000" alink="#003F00" vlink="#003F00"><!--link farben ins css--> */
+
+span img {height:100%; width:100%;}
+
+a:link {color: #ff00ff;}
+a:hover {color: #FF00C0;}
+a:visited {color: #cF00FF;}
+a:fokus {color: #DF00FF;}
+a:active {color: #FFFF00;}
